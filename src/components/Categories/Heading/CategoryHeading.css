@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'nono';
+    src: url('../../../fonts/ProtestGuerrilla-Regular.ttf') format('truetype');
+    /* Add additional font formats if needed */
+    font-weight: normal;
+    /* font-style: normal; */
+  }
+h2{
+    /* background-color: #EEEDEB; */
+    font-size: 60px;
+    font-family: nono;
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+h2:hover{
+  color: #d94f5c;
+  cursor: pointer;
+}

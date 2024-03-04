@@ -1,0 +1,27 @@
+/* Make the slider horizontal and take full width of the screen */
+.slider {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+  }
+  
+  .slide-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+  }
+  
+  .slide {
+    width: 100vw; /* Make each slide take full width of the screen */
+    height: 250px;
+  }
+  
+  .slide img {
+    width: auto;
+    height: auto;
+  }
+  
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+  
